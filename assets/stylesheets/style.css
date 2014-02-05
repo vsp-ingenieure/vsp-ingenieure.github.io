@@ -32,10 +32,10 @@
 
 
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,700,300);
-@import url("../css/fancybox.css");
-@import url("../css/jquery.minicolors.css");
-@import url("../css/isotope.css");
-@import url("../css/perfect-scrollbar.css");
+@import url("fancybox.css");
+@import url("jquery.minicolors.css");
+@import url("isotope.css");
+@import url("perfect-scrollbar.css");
 
 /* 1.CSS Reset & Clearfix */
 
@@ -50,8 +50,8 @@ a, abbr, acronym, address, applet, article, aside, audio,b, blockquote, big, bod
 	outline: 0;
     vertical-align: top;
 }
-b *, strong * {
-	font-weight:bold;
+b , strong {
+	font-weight: bold;
 }
 ol, ul {
 	list-style: none;
