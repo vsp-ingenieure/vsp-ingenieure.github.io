@@ -4813,3 +4813,13 @@ img.bg {
     margin-left: -512px;   /* 50% */
   }
 }
+
+/* Reference Images */
+
+aside ul img {
+	margin:5px;
+	padding:5px;
+	min-width: 150px;
+	max-width: 200px;
+	border: 1px dashed #c0c0c0;
+}
