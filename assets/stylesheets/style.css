@@ -2584,7 +2584,7 @@ table{
 	margin-bottom:20px;
 }
 table td{
-	width:25%;
+
 	padding:12px 0px;
 }
 table tr{
@@ -4824,4 +4824,16 @@ aside ul img {
 	min-width: 150px;
 	max-width: 200px;
 	border: 1px dashed #c0c0c0;
+}
+
+/* Frontpage */
+
+.front aside {
+	min-height: 300px; 
+	background-image: url(/assets/images/content/images/frontpage/fotolia_50539222_p.jpg);
+	background-repeat: no-repeat;
+}
+
+table td:first-child {
+	width: 150px;
 }
