@@ -338,6 +338,8 @@ a,.author,.main-menu>li>ul li.current-item>a,.first-letter .first_letter_style_1
 	display:block;
 	width:auto;
 	float:left;
+	width: 200px;
+	height: 100px;
 }
 .header-image-part{
 	margin-top:-144px !important;
