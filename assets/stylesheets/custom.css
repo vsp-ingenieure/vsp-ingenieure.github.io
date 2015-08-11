@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+Ich habe in der css Änderungen mitprotokolliert, die ich aufs Layout angewendet habe
+Die custum.css überschreibt bei Bedarf in der index.html die vorhergehende .css
+
+
+*/
+
+img.bg { 
+display: none;
+}
+
+.background-pattern4 {
+    /*background: rgba(0, 0, 0, 0) url("../images/patterns/pattern4.png") repeat scroll 0 0;*/
+	background: none;
+	background-color:#efefef;
+}
+
+body {
+   /* background: rgba(0, 0, 0, 0) url("../images/patterns/pattern1.png") repeat scroll 0 0;*/
+	background: none;
+	/*background-color:#efefef;*/
+}
+
+/* CONTAINER */
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    padding: 0 30px;
+}
+
+/* MENUE */
+.main-menu {
+    margin-left: 0;
+}
+
+.main-menu > li > a {
+    text-transform: uppercase;
+	padding: 14px 30px 16px 0px;
+}
+
+/* SOCIAL BUTTON */
+.footer-social-icons a {
+    margin-right: 20px;
+}
+
+/* TYPO */
+body {
+    font-family: "Roboto Condensed", Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+}
+
+/* cyan */
+a, .author, .main-menu > li > ul li.current-item > a, .first-letter .first_letter_style_1, .list-type1 > li > a:hover, .list-type2 > li > a:hover, .list-type3 > li > a:hover, .list-type2 > li > ul > li > a:hover, .list-type4 > li > a:hover, .pagination_1_container .pagination_style_1 li.hidden_pages a, .pricing_table_column.active_table_column header h5, .pricing_table_column.active_table_column .content_column_part > div dt, .pricing_table_column.active_table_column .content_column_part > div dd, .pricing_table_column.hover_table_column header h5, .pricing_table_column.hover_table_column .content_column_part > div dt, .pricing_table_column.hover_table_column .content_column_part > div dd, .first-letter-type3 .first_letter_style_3, .container_404 > p:first-child, #time_container dl dt, #time_container dl dd, .post_links a:hover, .track_name dt, .track_stat a:hover, #team-carousel > li p, .team-list > li p, .first_letter_default_style, .link_demo, .ls-bottom-slidebuttons a.ls-nav-active, .main-menu li:hover > a, .main-menu li.current_item_top_level > a, .main-menu > li > ul li.active_item_devices > a {
+    color: #0abbef;
+}
+
+.layer-description, .layer-description-full-width, .month, #carousel-news-nav a:hover, #carousel-news-nav a.selected, #carousel-team-nav a:hover, #carousel-team-nav a.selected, #our_partners_carousel_nav a:hover, #our_partners_carousel_nav a.selected, .view-all-button:hover, #latest_post_prev:hover, #latest_post_next:hover, .subscribers-list a:hover, .list-type2 > li > ul > li > a:hover .button-element, .ie8 .portfolio_navigation > li > a.selected, .ie9 .portfolio_navigation > li > a.selected, .related-projects-container #car_prev:hover, .related-projects-container #car_next:hover, .pagination_style_2 li.selected_pag a, .pagination_style_2 li a:hover, .social_icons_type_2 li a, .first-letter-type2 .first_letter_style_2, mark, .post_time dt, .blog_small_prev:hover, .blog_small_next:hover, .accordion-active .accordion-icon, .comment_info p + a > div, .portfolio_navigation > li > a.selected, .title-page-block, .process-icon-block, .third_icon_block, .featured-work-description a, .fancy_button, .portfolio_description a, .small_button_style_1, .medium_button_style_1, .search-button, .join-button, .large_button_style_1, .large_button_style_3, .small_button_style_3, .medium_button_style_3, .large_button_style_4, .large_button_style_5, .medium_button_style_4, .medium_button_style_5, .small_button_style_4, .small_button_style_5, .recent_work_icon_block, .featured-work-description a, .join-button, .process-icon-block, .apply_button, .indicator > div, .pricing_table_column.active_table_column > footer > a, .pricing_table_column.hover_table_column > footer > a, .recent-work:hover figure div, .reset_button, #car_prev:hover, #car_process_prev:hover, #car_process_next:hover, #car_next:hover, .scrollup, .player_progress > div, .play-button, .volume_bar > div, .list-type4 li a:hover .active_link_icon, .list-type4 li a:hover .no_active_link_icon, .personal-social > li > a:hover, .social_icons_type_5 li a:hover, #carousel_process > li > figure:hover .process_2_icon, .social_icons_type_3 li a:hover, .menu_button, .tweet_list > li:hover .twitter_logo {
+    background-color: #0abbef;
+	
+	
+.main-menu > li ul, .pagination_style_2 li.selected_pag a, .pagination_style_2 li a:hover, .box_blog_wrap.box_blog_wrap_hover {
+    border-color: #0abbef;
+}
+
+/* arrow footer */
+.footer-top-part-arrow {
+	display: none; 
+}
+/*shadow footer */
+#footer-top-part::after {
+    display: none;
+}
+
+.menu_button:hover, .menu_button.menu_button_active {
+    background: #80d5ee none repeat scroll 0 0;
+}
