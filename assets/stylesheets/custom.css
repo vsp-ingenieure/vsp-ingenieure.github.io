@@ -7,6 +7,10 @@ Die custum.css überschreibt bei Bedarf in der index.html die vorhergehende .css
 
 */
 
+.logo {
+    height: 120px;
+}
+
 img.bg { 
 display: none;
 }
