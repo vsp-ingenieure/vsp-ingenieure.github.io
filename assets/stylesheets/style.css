@@ -292,21 +292,13 @@ a,.author,.main-menu>li>ul li.current-item>a,.first-letter .first_letter_style_1
 	padding-top:20px;
 	padding-bottom:35px;
 	margin-bottom:1px !important;
-	background:-webkit-linear-gradient(top,#fff 55%,rgba(255,255,255,0.6));
-	background:-moz-linear-gradient(top,#fff 55%,rgba(255,255,255,0.6));
-	background:-o-linear-gradient(top,#fff 55%,rgba(255,255,255,0.6));
-	background:-ms-linear-gradient(top,#fff 55%,rgba(255,255,255,0.6));
-	background:linear-gradient(top,#fff 55%,rgba(255,255,255,0.6));
+	background-color: #f7f7f7;
 }
 .main_menu_container{
 	margin-top:1px;
 	position:relative;
 	z-index:10;
-	background:-webkit-linear-gradient(top,rgba(255,255,255,0.6),rgba(255,255,255,0.4));
-	background:-moz-linear-gradient(top,rgba(255,255,255,0.6),rgba(255,255,255,0.4));
-	background:-o-linear-gradient(top,rgba(255,255,255,0.6),rgba(255,255,255,0.4));
-	background:-ms-linear-gradient(top,rgba(255,255,255,0.6),rgba(255,255,255,0.4));
-	background:linear-gradient(top,rgba(255,255,255,0.6),rgba(255,255,255,0.4));
+	background-color: #f7f7f7;
 }
 .ie8 .main-header,.ie9 .main-header{
 	padding-bottom:30px;
